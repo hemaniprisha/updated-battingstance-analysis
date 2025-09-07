@@ -151,7 +151,7 @@ predictions = system.model(new_data_tensor)
 scaled_features = system.scaler.transform(raw_features)
 
 ### 3. Expected Output
-```
+
 INFO: Model Performance:
 INFO: Test Accuracy: 0.5580
 INFO: Weighted F1: 0.5746
@@ -161,7 +161,7 @@ INFO: Stance Analysis Results:
               0           1950            0.2692        0.2000           0.5308              26.3054          -29.6037              26.6070                   ST                    CH                  -0.1154                   -0.3533
               1           2421            0.2482        0.2078           0.5440              29.7532           -4.8810              28.4344                   FF                    FC                  -0.2689                   -0.3709
 ... 
-
+```
 ## Output Files
 
 The system generates comprehensive analysis outputs:

@@ -1,0 +1,41 @@
+BASEBALL ANALYTICS SYSTEM - ANALYSIS SUMMARY
+==================================================
+
+MODEL PERFORMANCE
+--------------------
+Overall Accuracy: 0.557
+Weighted F1 Score: 0.568
+
+STANCE CLUSTER ANALYSIS
+-------------------------
+Number of Clusters: 5
+Pitcher Win Rate Range: 0.248 - 0.293
+
+Cluster Details:
+  Cluster 0: 26.9% pitcher success, 1950 pitches, stance: -29.6° angle, 26.3 foot sep
+  Cluster 1: 24.8% pitcher success, 2421 pitches, stance: -4.9° angle, 29.8 foot sep
+  Cluster 2: 26.9% pitcher success, 1362 pitches, stance: -11.3° angle, 26.4 foot sep
+  Cluster 3: 29.3% pitcher success, 1676 pitches, stance: -6.1° angle, 39.3 foot sep
+  Cluster 4: 29.1% pitcher success, 6691 pitches, stance: -5.1° angle, 31.1 foot sep
+
+RECOMMENDATIONS
+---------------
+
+Pitching Strategy:
+  • Target Cluster 3 stances (foot sep: 39.3, angle: -6.1°) - 29.3% success rate
+  • Avoid attacking Cluster 1 stances directly - only 24.8% pitcher success rate
+  • Use ST vs Cluster 0 - -11.5% effectiveness
+  • Use FF vs Cluster 1 - -26.9% effectiveness
+  • Use SL vs Cluster 2 - -17.6% effectiveness
+  • Use CU vs Cluster 3 - 7.1% effectiveness
+  • Use KC vs Cluster 4 - -12.7% effectiveness
+
+Hitting Adjustments:
+  • Players with narrow stances should consider widening (avg foot sep < 27)
+  • Extremely closed stances (< -20°) may benefit from slight opening
+  • Wide stances (> 35 foot separation) show good overall performance
+
+Coaching Insights:
+  • Stance clustering reveals 5 distinct batting approaches
+  • Best performing stance: 39.3 foot separation, -6.1° angle
+  • Success rate variance across stances: 0.019 (higher = more differentiation)

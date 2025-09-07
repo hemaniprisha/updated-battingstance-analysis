@@ -1,0 +1,113 @@
+{
+  "model_performance": {
+    "accuracy": 0.5568128241395568,
+    "f1_weighted": 0.5675472323603238,
+    "classification_report": {
+      "Pitcher Win": {
+        "precision": 0.47770700636942676,
+        "recall": 0.6410256410256411,
+        "f1-score": 0.5474452554744526,
+        "support": 585.0
+      },
+      "Neutral": {
+        "precision": 0.33,
+        "recall": 0.3919239904988123,
+        "f1-score": 0.3583061889250814,
+        "support": 421.0
+      },
+      "Hitter Win": {
+        "precision": 0.7667464114832536,
+        "recall": 0.5748878923766816,
+        "f1-score": 0.6570989236289082,
+        "support": 1115.0
+      },
+      "accuracy": 0.5568128241395568,
+      "macro avg": {
+        "precision": 0.5248178059508934,
+        "recall": 0.5359458413003784,
+        "f1-score": 0.5209501226761474,
+        "support": 2121.0
+      },
+      "weighted avg": {
+        "precision": 0.6003351473502793,
+        "recall": 0.5568128241395568,
+        "f1-score": 0.5675472323603238,
+        "support": 2121.0
+      }
+    }
+  },
+  "stance_analysis": [
+    {
+      "stance_cluster": 0,
+      "total_pitches": 1950,
+      "pitcher_win_rate": 0.2692307692307692,
+      "neutral_rate": 0.2,
+      "hitter_win_rate": 0.5307692307692308,
+      "avg_foot_separation": 26.30542670992413,
+      "avg_stance_angle": -29.60372360866657,
+      "avg_batter_position": 26.60702032514824,
+      "best_pitch_vs_stance": "ST",
+      "worst_pitch_vs_stance": "CH",
+      "best_pitch_success_rate": -0.11538461538461542,
+      "worst_pitch_success_rate": -0.3532608695652173
+    },
+    {
+      "stance_cluster": 1,
+      "total_pitches": 2421,
+      "pitcher_win_rate": 0.24824452705493597,
+      "neutral_rate": 0.2077653862040479,
+      "hitter_win_rate": 0.5439900867410161,
+      "avg_foot_separation": 29.753186260925094,
+      "avg_stance_angle": -4.880974236381635,
+      "avg_batter_position": 28.43438271569043,
+      "best_pitch_vs_stance": "FF",
+      "worst_pitch_vs_stance": "FC",
+      "best_pitch_success_rate": -0.26893939393939403,
+      "worst_pitch_success_rate": -0.37089201877934275
+    },
+    {
+      "stance_cluster": 2,
+      "total_pitches": 1362,
+      "pitcher_win_rate": 0.26945668135095446,
+      "neutral_rate": 0.1960352422907489,
+      "hitter_win_rate": 0.5345080763582967,
+      "avg_foot_separation": 26.362030881700214,
+      "avg_stance_angle": -11.304094168645056,
+      "avg_batter_position": 27.021933962991213,
+      "best_pitch_vs_stance": "SL",
+      "worst_pitch_vs_stance": "FC",
+      "best_pitch_success_rate": -0.17647058823529416,
+      "worst_pitch_success_rate": -0.3971631205673758
+    },
+    {
+      "stance_cluster": 3,
+      "total_pitches": 1676,
+      "pitcher_win_rate": 0.29295942720763724,
+      "neutral_rate": 0.1807875894988067,
+      "hitter_win_rate": 0.5262529832935561,
+      "avg_foot_separation": 39.320098649629244,
+      "avg_stance_angle": -6.071670311742807,
+      "avg_batter_position": 29.546757980546964,
+      "best_pitch_vs_stance": "CU",
+      "worst_pitch_vs_stance": "ST",
+      "best_pitch_success_rate": 0.07070707070707072,
+      "worst_pitch_success_rate": -0.3402061855670102
+    },
+    {
+      "stance_cluster": 4,
+      "total_pitches": 6691,
+      "pitcher_win_rate": 0.2914362576595427,
+      "neutral_rate": 0.19384247496637275,
+      "hitter_win_rate": 0.5147212673740846,
+      "avg_foot_separation": 31.129263937412333,
+      "avg_stance_angle": -5.109166939638044,
+      "avg_batter_position": 27.76951965170517,
+      "best_pitch_vs_stance": "KC",
+      "worst_pitch_vs_stance": "FS",
+      "best_pitch_success_rate": -0.12686567164179108,
+      "worst_pitch_success_rate": -0.328125
+    }
+  ],
+  "cluster_statistics": {
+    "0": {
+      "size": 

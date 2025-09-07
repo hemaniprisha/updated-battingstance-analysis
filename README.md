@@ -92,7 +92,7 @@ Biomechanics: avg_intercept_y_vs_batter, avg_intercept_y_vs_plate
 Handedness: bat_side
 
 
-
+## Running the Code
 
 ### 1. Environment Setup
 ```bash
@@ -157,11 +157,31 @@ INFO: Test Accuracy: 0.5580
 INFO: Weighted F1: 0.5746
 
 INFO: Stance Analysis Results:
- stance_cluster  pitcher_win_rate  avg_foot_separation  avg_stance_angle
-              0            0.2727                 26.78            -30.20
-              1            0.2787                 39.99             -7.38
-              ...
-```
+ stance_cluster  total_pitches  pitcher_win_rate  neutral_rate  hitter_win_rate  avg_foot_separation  avg_stance_angle  avg_batter_position best_pitch_vs_stance worst_pitch_vs_stance  best_pitch_success_rate  worst_pitch_success_rate
+              0           1950            0.2692        0.2000           0.5308              26.3054          -29.6037              26.6070                   ST                    CH                  -0.1154                   -0.3533
+              1           2421            0.2482        0.2078           0.5440              29.7532           -4.8810              28.4344                   FF                    FC                  -0.2689                   -0.3709
+... 
+
+## Output Files
+
+The system generates comprehensive analysis outputs:
+## Visualizations
+
+baseball_analysis_results.png: 2x2 dashboard with training curves, confusion matrix, and stance performance
+stance_cluster_analysis.png: Detailed stance archetype visualizations
+performance_heatmap.png: Pitch type effectiveness by stance cluster
+
+## Data Exports
+
+baseball_analysis_results.json: Structured results with metrics and cluster statistics
+analysis_summary.txt: Human-readable executive summary with recommendations
+
+## Console Output
+
+Real-time training progress and validation metrics
+Cluster characteristics and statistical summaries
+Actionable recommendations by category (pitching strategy, hitting adjustments, coaching insights)
+
 
 ## Technical Implementation
 

@@ -165,25 +165,25 @@ INFO: Stance Analysis Results:
 ## Output Files
 
 The system generates comprehensive analysis outputs:
-## Visualizations
+### Visualizations
 
 baseball_analysis_results.png: 2x2 dashboard with training curves, confusion matrix, and stance performance
 stance_cluster_analysis.png: Detailed stance archetype visualizations
 performance_heatmap.png: Pitch type effectiveness by stance cluster
 
-## Data Exports
+### Data Exports
 
 baseball_analysis_results.json: Structured results with metrics and cluster statistics
 analysis_summary.txt: Human-readable executive summary with recommendations
 
-## Console Output
+### Console Output
 
 Real-time training progress and validation metrics
 Cluster characteristics and statistical summaries
 Actionable recommendations by category (pitching strategy, hitting adjustments, coaching insights)
 
 
-## Technical Implementation
+### Technical Implementation
 
 ### **Machine Learning Architecture**
 - **Model Type**: Feedforward Neural Network 
